@@ -1,266 +1,266 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ASAL JADI YANG PENTING PASTI</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    body {
-      background-color: #12181b;
-      color: #e0e6ed;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      padding: 20px;
-    }
-    .container {
-      background: #1e262c;
-      width: 100%;
-      max-width: 800px;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
-    }
-    h2 {
-      margin-top: 0;
-      color: #00e676;
-      font-size: 1.4rem;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    label {
-      font-weight: 600;
-      font-size: 0.9rem;
-      color: #90a4ae;
-      display: block;
-      margin-bottom: 6px;
-    }
-    textarea {
-      width: 100%;
-      height: 140px;
-      background: #151c21;
-      border: 1px solid #37474f;
-      color: #fff;
-      border-radius: 8px;
-      padding: 12px;
-      font-size: 0.95rem;
-      outline: none;
-      resize: vertical;
-      transition: border 0.2s;
-    }
-    textarea:focus {
-      border-color: #00e676;
-    }
-    .table-container {
-      margin-top: 15px;
-      max-height: 250px;
-      overflow-y: auto;
-      border: 1px solid #37474f;
-      border-radius: 8px;
-      background: #151c21;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      color: #00e676;
-      font-size: 0.95rem;
-    }
-    th, td {
-      border: 1px solid #37474f;
-      padding: 10px 12px;
-      text-align: left;
-    }
-    th {
-      background-color: #263238;
-      color: #fff;
-      position: sticky;
-      top: 0;
-    }
-    .btn-group {
-      display: flex;
-      gap: 10px;
-      margin-top: 15px;
-    }
-    button {
-      flex: 1;
-      padding: 12px;
-      border: none;
-      border-radius: 8px;
-      font-weight: bold;
-      cursor: pointer;
-      font-size: 0.95rem;
-      transition: opacity 0.2s;
-    }
-    button:hover {
-      opacity: 0.9;
-    }
-    .btn-copy {
-      background: #00e676;
-      color: #12181b;
-    }
-    .btn-clear {
-      background: #37474f;
-      color: #fff;
-    }
-    .toast {
-      text-align: center;
-      color: #00e676;
-      font-size: 0.85rem;
-      margin-top: 8px;
-      height: 18px;
-      font-weight: 600;
-    }
-  </style>
-</head>
-<body>
+  <!DOCTYPE html>
+  <html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAL JADI YANG PENTING PASTI</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      body {
+        background-color: #12181b;
+        color: #e0e6ed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        background: #1e262c;
+        width: 100%;
+        max-width: 800px;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      }
+      h2 {
+        margin-top: 0;
+        color: #00e676;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      label {
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: #90a4ae;
+        display: block;
+        margin-bottom: 6px;
+      }
+      textarea {
+        width: 100%;
+        height: 140px;
+        background: #151c21;
+        border: 1px solid #37474f;
+        color: #fff;
+        border-radius: 8px;
+        padding: 12px;
+        font-size: 0.95rem;
+        outline: none;
+        resize: vertical;
+        transition: border 0.2s;
+      }
+      textarea:focus {
+        border-color: #00e676;
+      }
+      .table-container {
+        margin-top: 15px;
+        max-height: 250px;
+        overflow-y: auto;
+        border: 1px solid #37474f;
+        border-radius: 8px;
+        background: #151c21;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        color: #00e676;
+        font-size: 0.95rem;
+      }
+      th, td {
+        border: 1px solid #37474f;
+        padding: 10px 12px;
+        text-align: left;
+      }
+      th {
+        background-color: #263238;
+        color: #fff;
+        position: sticky;
+        top: 0;
+      }
+      .btn-group {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+      }
+      button {
+        flex: 1;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 0.95rem;
+        transition: opacity 0.2s;
+      }
+      button:hover {
+        opacity: 0.9;
+      }
+      .btn-copy {
+        background: #00e676;
+        color: #12181b;
+      }
+      .btn-clear {
+        background: #37474f;
+        color: #fff;
+      }
+      .toast {
+        text-align: center;
+        color: #00e676;
+        font-size: 0.85rem;
+        margin-top: 8px;
+        height: 18px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
 
-<div class="container">
-  <h2>Tempel Aja Jangan Bacot</h2>
+  <div class="container">
+    <h2>Tempel Aja Jangan Bacot</h2>
 
-  <label for="rawInput">:</label>
-  <textarea id="rawInput" placeholder="Tempel semua data di sini..." autofocus></textarea>
+    <label for="rawInput">:</label>
+    <textarea id="rawInput" placeholder="Tempel semua data di sini..." autofocus></textarea>
 
-  <label style="margin-top: 15px;">Copy Hasil:</label>
-  <div class="table-container">
-    <table id="resultTable">
-      <thead>
-        <tr>
-          <th>Bank</th>
-          <th>No Rekening</th>
-          <th>Username</th>
-          <th>Nama</th>
-          <th>Nominal</th>
-        </tr>
-      </thead>
-      <tbody id="tableBody">
-        <!-- Data bakal masuk ke sini -->
-      </tbody>
-    </table>
+    <label style="margin-top: 15px;">Copy Hasil:</label>
+    <div class="table-container">
+      <table id="resultTable">
+        <thead>
+          <tr>
+            <th>Bank</th>
+            <th>No Rekening</th>
+            <th>Username</th>
+            <th>Nama</th>
+            <th>Nominal</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!-- Data bakal masuk ke sini -->
+        </tbody>
+      </table>
+    </div>
+
+    <div class="toast" id="toastMsg"></div>
+
+    <div class="btn-group">
+      <button class="btn-copy" onclick="copyTable()">Salin untuk Docs / Excel</button>
+      <button class="btn-clear" onclick="clearAll()">Bersihkan</button>
+    </div>
   </div>
 
-  <div class="toast" id="toastMsg"></div>
+  <script>
+    const rawInput = document.getElementById('rawInput');
+    const tableBody = document.getElementById('tableBody');
+    const toastMsg = document.getElementById('toastMsg');
 
-  <div class="btn-group">
-    <button class="btn-copy" onclick="copyTable()">Salin untuk Docs / Excel</button>
-    <button class="btn-clear" onclick="clearAll()">Bersihkan</button>
-  </div>
-</div>
+    // Proses otomatis saat diketik atau ditempel
+    rawInput.addEventListener('input', processData);
 
-<script>
-  const rawInput = document.getElementById('rawInput');
-  const tableBody = document.getElementById('tableBody');
-  const toastMsg = document.getElementById('toastMsg');
+    function parseBlock(blockText) {
+      if (!blockText.trim()) return null;
 
-  // Proses otomatis saat diketik atau ditempel
-  rawInput.addEventListener('input', processData);
+      const bankRegex = /\b(BRI|BCA|BNI|MANDIRI|DANA|OVO|GOPAY|SEABANK|MAYBANK|CIMB|LINKAJA|DANAMON|BANK JAGO|BANKJAGO)))\b/i;
 
-  function parseBlock(blockText) {
-    if (!blockText.trim()) return null;
+      // 1. Bank
+      let bankMatch = blockText.match(bankRegex);
+      let bank = bankMatch ? bankMatch[0].toUpperCase() : '';
 
-    const bankRegex = /\b(BRI|BCA|BNI|MANDIRI|DANA|OVO|GOPAY|SEABANK|MAYBANK|CIMB|PERMATA)\b/i;
+      // 2. No Rekening
+      let rekMatch = blockText.match(/\b\d{10,20}\b/);
+      let noRek = rekMatch ? rekMatch[0] : '';
 
-    // 1. Bank
-    let bankMatch = blockText.match(bankRegex);
-    let bank = bankMatch ? bankMatch[0].toUpperCase() : '';
-
-    // 2. No Rekening
-    let rekMatch = blockText.match(/\b\d{10,20}\b/);
-    let noRek = rekMatch ? rekMatch[0] : '';
-
-    // 3. Nominal
-    let nominalMatch = blockText.match(/\b\d{1,3}(?:[.,]\d{3})+\b|\b\d{4,}\b/g);
-    let nominal = '';
-    if (nominalMatch) {
-      for (let i = nominalMatch.length - 1; i >= 0; i--) {
-        let cleanNum = nominalMatch[i].replace(/[^0-9]/g, '');
-        if (cleanNum !== noRek) {
-          nominal = nominalMatch[i];
-          break;
+      // 3. Nominal
+      let nominalMatch = blockText.match(/\b\d{1,3}(?:[.,]\d{3})+\b|\b\d{4,}\b/g);
+      let nominal = '';
+      if (nominalMatch) {
+        for (let i = nominalMatch.length - 1; i >= 0; i--) {
+          let cleanNum = nominalMatch[i].replace(/[^0-9]/g, '');
+          if (cleanNum !== noRek) {
+            nominal = nominalMatch[i];
+            break;
+          }
         }
       }
-    }
 
-    // 4. Username
-    let username = '';
-    let textBeforeBank = blockText.split(new RegExp(bank, 'i'))[0] || '';
-    let wordsBeforeBank = textBeforeBank.trim().split(/\s+/);
-    if (wordsBeforeBank.length > 0 && wordsBeforeBank[0] !== '') {
-      username = wordsBeforeBank[0];
-    }
-
-    // 5. Nama
-    let nama = '';
-    if (bank && noRek) {
-      let bankIndex = blockText.toUpperCase().indexOf(bank);
-      let rekIndex = blockText.indexOf(noRek);
-
-      if (bankIndex !== -1 && rekIndex !== -1 && rekIndex > bankIndex) {
-        let between = blockText.substring(bankIndex + bank.length, rekIndex);
-        nama = between.replace(/^[\s,:]+|[\s,:]+$/g, '').trim();
+      // 4. Username
+      let username = '';
+      let textBeforeBank = blockText.split(new RegExp(bank, 'i'))[0] || '';
+      let wordsBeforeBank = textBeforeBank.trim().split(/\s+/);
+      if (wordsBeforeBank.length > 0 && wordsBeforeBank[0] !== '') {
+        username = wordsBeforeBank[0];
       }
-    }
 
-    return { bank, noRek, username, nama, nominal };
-  }
+      // 5. Nama
+      let nama = '';
+      if (bank && noRek) {
+        let bankIndex = blockText.toUpperCase().indexOf(bank);
+        let rekIndex = blockText.indexOf(noRek);
 
-  function processData() {
-    let raw = rawInput.value.trim();
-    tableBody.innerHTML = ''; // Kosongkan tabel dulu
-
-    if (!raw) return;
-
-    let blocks = raw.split(/\n\s*\n/);
-
-    blocks.forEach(block => {
-      let data = parseBlock(block);
-      if (data) {
-        let tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td>${data.bank}</td>
-          <td>${data.noRek}</td>
-          <td>${data.username}</td>
-          <td>${data.nama}</td>
-          <td>${data.nominal}</td>
-        `;
-        tableBody.appendChild(tr);
+        if (bankIndex !== -1 && rekIndex !== -1 && rekIndex > bankIndex) {
+          let between = blockText.substring(bankIndex + bank.length, rekIndex);
+          nama = between.replace(/^[\s,:]+|[\s,:]+$/g, '').trim();
+        }
       }
-    });
-  }
 
-  function copyTable() {
-    let table = document.getElementById('resultTable');
-    if (!tableBody.rows.length) return;
-
-    // Pakai Range & Selection biar format HTML Tabel kekirim ke Clipboard
-    let range = document.createRange();
-    range.selectNode(table);
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-
-    try {
-      document.execCommand('copy');
-      toastMsg.innerText = '✓ Berhasil disalin! Tinggal Paste (Ctrl+V) di Google Docs / Excel';
-      setTimeout(() => { toastMsg.innerText = ''; }, 3000);
-    } catch (err) {
-      toastMsg.innerText = 'Gagal menyalin otomatis.';
+      return { bank, noRek, username, nama, nominal };
     }
 
-    window.getSelection().removeAllRanges();
-  }
+    function processData() {
+      let raw = rawInput.value.trim();
+      tableBody.innerHTML = ''; // Kosongkan tabel dulu
 
-  function clearAll() {
-    rawInput.value = '';
-    tableBody.innerHTML = '';
-    toastMsg.innerText = '';
-    rawInput.focus();
-  }
-</script>
+      if (!raw) return;
 
-</body>
-</html>
+      let blocks = raw.split(/\n\s*\n/);
+
+      blocks.forEach(block => {
+        let data = parseBlock(block);
+        if (data) {
+          let tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${data.bank}</td>
+            <td>${data.noRek}</td>
+            <td>${data.username}</td>
+            <td>${data.nama}</td>
+            <td>${data.nominal}</td>
+          `;
+          tableBody.appendChild(tr);
+        }
+      });
+    }
+
+    function copyTable() {
+      let table = document.getElementById('resultTable');
+      if (!tableBody.rows.length) return;
+
+      // Pakai Range & Selection biar format HTML Tabel kekirim ke Clipboard
+      let range = document.createRange();
+      range.selectNode(table);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+
+      try {
+        document.execCommand('copy');
+        toastMsg.innerText = '✓ Berhasil disalin! Tinggal Paste (Ctrl+V) di Google Docs / Excel';
+        setTimeout(() => { toastMsg.innerText = ''; }, 3000);
+      } catch (err) {
+        toastMsg.innerText = 'Gagal menyalin otomatis.';
+      }
+
+      window.getSelection().removeAllRanges();
+    }
+
+    function clearAll() {
+      rawInput.value = '';
+      tableBody.innerHTML = '';
+      toastMsg.innerText = '';
+      rawInput.focus();
+    }
+  </script>
+
+  </body>
+  </html>
